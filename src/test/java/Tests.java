@@ -23,7 +23,7 @@ public class Tests {
                 .and().body("headers.host", equalTo("postman-echo.com"))
                 .and().body("headers.x-amzn-trace-id", notNullValue())
                 .and().body("headers.accept", equalTo("*/*"))
-                .and().body("headers.user-agent", equalTo("Apache-HttpClient/4.5.13 (Java/19)"))
+                .and().body("headers.user-agent", equalTo("Apache-HttpClient/4.5.13 (Java/11)"))
                 .and().body("headers.accept-encoding", equalTo("gzip,deflate"))
                 .and().body("url", equalTo("https://postman-echo.com/get?foo1=bar1&foo2=bar2"));
     }
