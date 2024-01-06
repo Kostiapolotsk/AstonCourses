@@ -15,7 +15,7 @@ public class FirstPage {
     public static By productLocatorOne = By.xpath("//article[@data-index='0']");
     public static By productLocatorTwo = By.xpath("//article[@data-index='1']");
     public static By addBasket = By.xpath
-            ("//a[@class='product-card__add-basket j-add-to-basket btn-main-sm-2']");
+            ("//a[@class='product-card__add-basket j-add-to-basket btn-main-sm']");
     public By productNameOne = By.xpath("//article[@data-index='0']//span[@class='product-card__name']");
     public By productNameTwo = By.xpath("//article[@data-index='1']//span[@class='product-card__name']");
     public By clickBasket = By.xpath("//span[@class='navbar-pc__icon navbar-pc__icon--basket']");
